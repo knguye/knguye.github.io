@@ -1,0 +1,41 @@
+h2 {
+
+}
+
+div.container {
+  padding: 1%;
+  margin: 1%;
+}
+
+img.container{
+  align-content: center;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #CCCCCC;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#fun-facts {
+  background-color: #D33E43;
+
+}
+
+#about-me {
+  background-color: #3366cc;
+}
+
+#artists{
+  background-color: #9B7874;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+}
