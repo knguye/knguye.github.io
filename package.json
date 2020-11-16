@@ -1,0 +1,35 @@
+{
+  "name": "knguye.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knguye/knguye.github.io.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Kevin",
+    "N",
+    "Kevin",
+    "Nguyen",
+    "KC",
+    "Academy",
+    "Kevs",
+    "Coding",
+    "Academy"
+  ],
+  "author": "Kevin Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knguye/knguye.github.io/issues"
+  },
+  "homepage": "https://github.com/knguye/knguye.github.io#readme"
+}

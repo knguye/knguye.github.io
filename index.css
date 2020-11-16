@@ -1,18 +1,7 @@
-header{
-  text-align: center;
-  font-size: 200%;
-}
-
-navbar a {
-  display: block;
-}
-
-h1 {
-  text-align: center;
-  font-size: 200%;
-}
-
-.project-tile img{
-    width: 200px;
-    height: 200px;
+@media screen and (max-width: 44em){
+  nav[role="full-horizontal"] {
+    ul > li {
+      width: 100%;
+    }
+  }
 }
