@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.071f3b02.css",
+    "main.js": "/static/js/main.cf173263.js",
+    "static/media/Headshot.png": "/static/media/Headshot.c852dba6e1ed5f4edc1c.png",
+    "static/media/fitness.png": "/static/media/fitness.6ae90127243708d60464.png",
+    "static/media/4.png": "/static/media/4.e7d21413f03d3203539f.png",
+    "static/media/3.png": "/static/media/3.f5645ee71ad10616e2c1.png",
+    "static/media/1.png": "/static/media/1.ade428f3b54c1bd391e0.png",
+    "index.html": "/index.html",
+    "main.071f3b02.css.map": "/static/css/main.071f3b02.css.map",
+    "main.cf173263.js.map": "/static/js/main.cf173263.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071f3b02.css",
+    "static/js/main.cf173263.js"
+  ]
+}
