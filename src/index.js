@@ -17,7 +17,7 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Comedy from "./routes/Comedy";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root/>,

@@ -10,9 +10,6 @@ export default function Comedy(props) {
     
       document.body.appendChild(script);
 
-      return () => {
-        document.body.removeChild(script);
-      }
     }, []);
 
     return (
