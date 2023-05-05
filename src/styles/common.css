@@ -1,0 +1,33 @@
+
+
+.container-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-height: 100%;
+    min-height: 15em;
+    margin: 1em;
+}
+
+.filled {
+    border: 1px solid red;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    min-height: 5em;
+}
