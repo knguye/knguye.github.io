@@ -25,6 +25,7 @@ export default function LandingTW() {
                     alt="App screenshot"
                     width={1000}
                     height={500}
+                    loading="lazy"
                     />
               </div>
               <div className=" lg:w-1/2 text-center py-8 lg:mx-0  xl:py-12 lg:text-left grow">
