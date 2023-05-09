@@ -36,6 +36,7 @@ export default function About() {
                                     alt="App screenshot"
                                     width={1000}
                                     height={500}
+                                    loading="lazy"
                                     />
                             </div>
 
@@ -46,6 +47,7 @@ export default function About() {
                                     alt="App screenshot"
                                     width={1000}
                                     height={500}
+                                    loading="lazy"
                                     />
                             </div>
                         </div>
@@ -56,6 +58,7 @@ export default function About() {
                                     alt="App screenshot"
                                     width={1000}
                                     height={500}
+                                    loading="lazy"
                                     />
                             </div>
                     </div>
