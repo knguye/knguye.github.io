@@ -44,9 +44,8 @@ export default function NavbarTW(props) {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <NavLink className="cursor-pointer list-none font-semibold text-2xl font-serif text-indigo-100"
-                            onClick={() => {navigate('/'); dispatch(changeLocation('home'));}}
-                            setCurrentRoute={props.setCurrentRoute}
-                            link={'/'}
+
+                            link={''}
                   >Kev Nguyen</NavLink>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -56,11 +55,11 @@ export default function NavbarTW(props) {
                             item.current ? 'cursor-pointer bg-gray-900 text-white' : 'cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white',
                             'cursor-pointer rounded-md px-3 py-2 text-sm font-medium'
                           )}
-                          onClick={() => {setCurrent(item.location); console.log(current);}}
+
                           key={item.name}
                           location={item.location}
                           aria-current={item.location === current ? 'page' : undefined}
-                          setCurrentRoute={props.setCurrentRoute}
+
                           link={item.href}
                           category={item.category}>{item.name}</NavLink>
                     ))}
@@ -94,13 +93,21 @@ export default function NavbarTW(props) {
   )
 }
 
-function NavLink (props){
+export function NavLink (props){
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
+    if (props.setCurrentRoute === undefined){
+      return (
+        <li className={props.className}>
+            <Link onClick={() => { dispatch(changeLocation(props.location))}} to={props.link} state={props.category}>{props.children}</Link>
+        </li>
+    )
+    }
+
     return (
         <li className={props.className}>
-            <Link onClick={() => { props.setCurrentRoute(props.link); dispatch(changeLocation(props.location))}} to={props.link} state={props.category}>{props.children}</Link>
+            <Link onClick={() => { dispatch(changeLocation(props.location))}} to={props.link} state={props.category}>{props.children}</Link>
         </li>
     )
 }

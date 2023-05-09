@@ -1,4 +1,5 @@
 import headshot from '../img/Headshot.png';
+import { NavLink } from './NavbarTW';
 
 export default function LandingTW() {
     return (
@@ -42,15 +43,19 @@ export default function LandingTW() {
                   Wait, where are you going?
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                  <a
-                    href="projects/films"
-                    className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                  >
+                  <NavLink
+                      location="acting"
+                      category="acting"
+                      link="/acting"  
+                      className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                     My Projects
-                  </a>
-                  <a href="/about" className="text-sm font-semibold leading-6 text-white">
+                  </NavLink>
+                  <NavLink 
+                      location="about"
+                      link="/about"  
+                      className="text-sm font-semibold leading-6 text-white list-none">
                     About me <span aria-hidden="true">→</span>
-                  </a>
+                  </NavLink>
                 </div>
               </div>
               

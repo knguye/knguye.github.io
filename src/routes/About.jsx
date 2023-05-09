@@ -1,6 +1,6 @@
 import headshot from '../img/Headshot.png';
 import still from '../img/stills/cutting-onions/1.png';
-import fitness from '../img/fitness.png';
+import laughing from '../img/laughing.jpg';
 
 export default function About() {
     return (
@@ -54,7 +54,7 @@ export default function About() {
                             <div className="relative mb-4 pr-4 pl-2 pt-4">
                                 <img
                                     className="relative top-0"
-                                    src={fitness}
+                                    src={laughing}
                                     alt="App screenshot"
                                     width={1000}
                                     height={500}
